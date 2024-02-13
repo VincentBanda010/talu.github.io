@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valentine's Proposal</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
 </head>
 
 <body>
@@ -14,19 +15,26 @@
     </header>
 
     <main>
-        <section class="content-section">
+        <section class="text-section">
+            <div class="love-emojis" id="loveEmojis" style="margin-top: -40px;">❤️💖🌹🌺</div>
+            <div class="content-section">
+                <p>My Dearest Brandina,</p>
+                <p>On this special day of love, I have a question for you:</p>
+                <p>Will you be my Valentine?</p>
+                <div class="button-container">
+                    <button id="yesButton" onclick="handleYes()">Yes</button>
+                    <button id="noButton" onclick="handleNo()">No</button>
+                </div>
+                <div>
+                    <p>Created with love by Vinny</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="image-section">
             <img src="images/IMG_20240206_074453_018copy.png" alt="Your Girlfriend's Image" class="girlfriend-image">
-            <p>My Dearest Brandina,</p>
-            <p>On this special day of love, I have a question for you:</p>
-            <p>Will you be my Valentine?</p>
-            <button id="yesButton" onclick="handleYes()">Yes</button>
-            <button id="noButton" onclick="handleNo()">No</button>
         </section>
     </main>
-
-    <footer>
-        <p>Created with love by Vinny</p>
-    </footer>
 
     <script src="script.js"></script>
 </body>
