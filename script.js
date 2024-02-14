@@ -1,6 +1,6 @@
 // script.js
 function handleYes() {
-    alert("You're my Valentine! 💖");
+    alert("Darling, in the garden of love, you're the most beautiful bloom. Your presence is sweeter than a box of chocolates, and your love is like a melody that serenades my heart. Happy Valentine's Day, my dearest! 🌹💖");
 }
 
 function handleNo() {
